@@ -280,18 +280,16 @@ footer {
     align-items: flex-start;
     gap: 1.3em;
   }
-  .timeline-date {
-    position: static;
-    display: block;
-    margin-bottom: 0.2em;
-    text-align: left;
-    width: auto;
-  }
   .skills-grid {
     flex-direction: column;
     gap: 1.3em;
   }
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+  .timeline-date {
+    position: static;
+    text-align: left;
+    width: auto;
   }
 }
