@@ -19,8 +19,10 @@
   filter: blur(0.5px) saturate(120%);
 }
 .glass-section {
+  /* Styles for each main card section, including About Me */
   margin-bottom: 2.5em;
   padding: 2.2em 2em 2em 2em;
+  scroll-margin-top: 110px; /* Prevent top bar from overlapping when using anchor links */
 }
 .glass-footer {
   background: rgba(34, 38, 50, 0.32);
@@ -116,17 +118,17 @@ body {
 }
 :root {
   --font-main: 'JetBrains Mono', 'Fira Mono', 'Menlo', 'Consolas', 'Liberation Mono', 'DejaVu Sans Mono', monospace;
-  --color-bg: #181a1b;
-  --color-bg-alt: #232526;
-  --color-card: #222325;
-  --color-text: #f4f4f5;
-  --color-subtle: #b0b3b8;
-  --color-accent: #06e549;
-  --color-border: #2c2e31;
-  --color-link: #b3f990;
-  --color-link-hover: #1fe24d;
+  --color-bg: #1a1026;              /* deep purple background */
+  --color-bg-alt: #23112b;          /* slightly lighter purple */
+  --color-card: #2d1436;            /* card: dark purple with a hint of red */
+  --color-text: #f8e9f0;            /* off-white with a pink tint */
+  --color-subtle: #b48bbd;          /* muted lavender */
+  --color-accent: #e24a68;          /* vibrant red-pink accent */
+  --color-border: #3d1a3a;          /* purple-red border */
+  --color-link: #b97aff;            /* modern purple for links */
+  --color-link-hover: #ff4f8b;      /* hot pink-red for hover */
   --radius: 14px;
-  --shadow: 0 2px 16px 0 rgba(30, 30, 50, 0.15);
+  --shadow: 0 2px 16px 0 rgba(120, 30, 80, 0.18);
   --transition: 0.15s cubic-bezier(.4,0,.2,1);
 }
 
@@ -145,6 +147,7 @@ html, body {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
+  padding-top: 2.5em; /* Extra space so About is not cut off by top bar */
 }
 
 header {
