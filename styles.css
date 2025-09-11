@@ -115,7 +115,7 @@ body {
   }
 }
 :root {
-  --font-main: 'Inter', 'SF Pro Display', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, system-ui, sans-serif;
+  --font-main: 'JetBrains Mono', 'Fira Mono', 'Menlo', 'Consolas', 'Liberation Mono', 'DejaVu Sans Mono', monospace;
   --color-bg: #181a1b;
   --color-bg-alt: #232526;
   --color-card: #222325;
